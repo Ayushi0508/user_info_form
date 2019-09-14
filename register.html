@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Register</title>
+ </head>
+ <body>
+ 	<!--use GET not POST -->
+ 	<form method="GET">
+ 		First Name:<input type="text" name="firstname"><br>
+ 		last Name:<input type="text" name="lastname"><br>
+ 		Email:<input type="email" name="email" required><br>
+ 		Password:<input type="password" min="5" name="password" required><br>
+ 		Birthday:<input type="date" name="Birthday" required><br>
+ 		Gender:<br>
+ 		<input type="radio" name="Gender" value="Male">Male<br>
+ 		<input type="radio" name="Gender" value="Female">Female<br>
+ 		<input type="radio" name="Gender" value="other">other<br>
+ 		pets:<br>
+ 		<input type="checkbox" value="Cat">Cat<br>
+ 		<input type="checkbox" value="dog">Dog<br>
+ 		Cars:<br>
+ 		<select>
+ 			<option value="volvo">Volvo</option>
+			<option value="audi">Audi</option> 
+ 		</select>
+
+ 		<input type="submit" value="Register!">
+        <input type="reset">
+ 	</form>
+ </body>
+ </html>
